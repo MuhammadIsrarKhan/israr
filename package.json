@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "israr" : "index.js"
+    "israr": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "clear-any-console": "^1.16.2"
+  }
 }
