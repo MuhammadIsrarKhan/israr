@@ -1,6 +1,6 @@
 {
   "name": "israri",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Get to know israr via `npx israri",
   "main": "index.js",
   "bin": {
@@ -9,7 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["muhammad israr","israri,isr"],
+  "keywords": [
+    "muhammad israr",
+    "israri,isr"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
