@@ -13,9 +13,14 @@
     "muhammad israr",
     "israri,isr"
   ],
-  "author": "",
+  "author": {
+    "name": "Muhammad Israr Khan",
+    "email": "israruetp@gmail.com",
+    "url": "https://www.linkedin.com/in/muhammad-israr-khan-558300199/"
+  },
   "license": "ISC",
   "dependencies": {
     "cli-welcome": "^2.2.3"
-  }
+  },
+  "repository": "MuhammadIsrarKhan/israr"
 }
