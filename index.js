@@ -2,6 +2,7 @@
 
 const chalk = require('chalk');
 const init = require('./utils/init');
+const handleError = require('cli-handle-error');
 
 (() => {
 init();
@@ -14,4 +15,6 @@ ${chalk.hex('#6cc644').bold.inverse(' Github ')} -   ${chalk.dim(`https://github
 ${chalk.hex('#1da1f2').bold.inverse(' LinkedIn ')} - ${chalk.dim(`https://www.linkedin.com/in/muhammad-israr-khan-558300199/`)}
 
 `);
+const err = new Error(`Blog API`);
+handleError(`Blog API is down`,err,false,false)
 })()
