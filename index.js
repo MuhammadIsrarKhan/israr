@@ -3,6 +3,7 @@
 const welcome = require('cli-welcome')
 const pkgJson = require('./package.json')
 const chalk = require('chalk');
+const checkNode = require('cli-check-node');
 
 welcome({
     title : "Muhammad Israr Khan",
@@ -14,6 +15,9 @@ welcome({
     bold : true,
     clear : true,
 })
+
+checkNode(18,{fail:false})
+
 console.log(`
 ${chalk.italic('Versatile Software Engineer, crafting challenging products with extra attention to detail. 2+ years of experience.')}
 
