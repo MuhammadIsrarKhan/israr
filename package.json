@@ -1,6 +1,6 @@
 {
   "name": "israri",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Get to know israr via `npx israri",
   "main": "index.js",
   "bin": {
